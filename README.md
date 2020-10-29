@@ -9,8 +9,7 @@ Arpit Aggarwal Shantam Bajpai
 
 
 ### Introduction to the Project 
-In this project, different CNN Architectures like ARMA Deeplab-v3, Deeplab-v3, SegNet were used for the task of image segmentation. The input to the CNN networks was a (224x224x3) image and the number of classes were equal to 19. The CNN architectures were implemented in PyTorch and the loss function was Cross Entropy(CE) Loss. The hyperparameters to be tuned were: Number of epochs(e), Learning Rate(lr), weight decay(wd) and batch size(bs).
-
+In this research project, we aim to integrate the state of the art semantic segmentation architectures like Deeplab-v3, DeepLab v3+  and RefineNet with Auto Regressive moving average networks and test its performance on the cityscapes dataset.
 
 ### Data
 The dataset used was Cityscapes dataset for the task of image segmentation(number of classes=19). The dataset can be downloaded from here: https://www.cityscapes-dataset.com/downloads/ 
